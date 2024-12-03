@@ -58,19 +58,19 @@ Partial Class TaskManagerForm
         ' SaveToolStripMenuItem
         ' 
         SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        SaveToolStripMenuItem.Size = New Size(180, 22)
+        SaveToolStripMenuItem.Size = New Size(100, 22)
         SaveToolStripMenuItem.Text = "Save"
         ' 
         ' LoadToolStripMenuItem
         ' 
         LoadToolStripMenuItem.Name = "LoadToolStripMenuItem"
-        LoadToolStripMenuItem.Size = New Size(180, 22)
+        LoadToolStripMenuItem.Size = New Size(100, 22)
         LoadToolStripMenuItem.Text = "Load"
         ' 
         ' ExitToolStripMenuItem
         ' 
         ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        ExitToolStripMenuItem.Size = New Size(180, 22)
+        ExitToolStripMenuItem.Size = New Size(100, 22)
         ExitToolStripMenuItem.Text = "Exit"
         ' 
         ' HelpToolStripMenuItem
@@ -83,7 +83,7 @@ Partial Class TaskManagerForm
         ' AboutToolStripMenuItem
         ' 
         AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        AboutToolStripMenuItem.Size = New Size(180, 22)
+        AboutToolStripMenuItem.Size = New Size(107, 22)
         AboutToolStripMenuItem.Text = "About"
         ' 
         ' listViewTasks
@@ -100,17 +100,17 @@ Partial Class TaskManagerForm
         ' 
         ColumnHeader1.Tag = ""
         ColumnHeader1.Text = "Task Title"
-        ColumnHeader1.Width = 100
+        ColumnHeader1.Width = 200
         ' 
         ' ColumnHeader2
         ' 
         ColumnHeader2.Text = "Description"
-        ColumnHeader2.Width = 100
+        ColumnHeader2.Width = 400
         ' 
         ' ColumnHeader3
         ' 
         ColumnHeader3.Text = "Due Date"
-        ColumnHeader3.Width = 100
+        ColumnHeader3.Width = 170
         ' 
         ' btnAdd
         ' 
